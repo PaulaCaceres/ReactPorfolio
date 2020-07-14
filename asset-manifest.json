@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ReactPorfolio/static/css/main.ec7a4f02.chunk.css",
+    "main.js": "/ReactPorfolio/static/js/main.5a06d2ea.chunk.js",
+    "main.js.map": "/ReactPorfolio/static/js/main.5a06d2ea.chunk.js.map",
+    "runtime-main.js": "/ReactPorfolio/static/js/runtime-main.e263af8d.js",
+    "runtime-main.js.map": "/ReactPorfolio/static/js/runtime-main.e263af8d.js.map",
+    "static/js/2.303ee9fd.chunk.js": "/ReactPorfolio/static/js/2.303ee9fd.chunk.js",
+    "static/js/2.303ee9fd.chunk.js.map": "/ReactPorfolio/static/js/2.303ee9fd.chunk.js.map",
+    "index.html": "/ReactPorfolio/index.html",
+    "precache-manifest.64cb07265d3ed9f56b541d5eb8d5e124.js": "/ReactPorfolio/precache-manifest.64cb07265d3ed9f56b541d5eb8d5e124.js",
+    "service-worker.js": "/ReactPorfolio/service-worker.js",
+    "static/css/main.ec7a4f02.chunk.css.map": "/ReactPorfolio/static/css/main.ec7a4f02.chunk.css.map",
+    "static/js/2.303ee9fd.chunk.js.LICENSE.txt": "/ReactPorfolio/static/js/2.303ee9fd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ReactPorfolio/static/media/DMSans-Regular.3e7f038b.ttf",
+    "static/media/Logo-iniciales-blanco.svg": "/ReactPorfolio/static/media/Logo-iniciales-blanco.d5274d4c.svg",
+    "static/media/Logo-nombre-blanco.svg": "/ReactPorfolio/static/media/Logo-nombre-blanco.d38d66ac.svg",
+    "static/media/mypic.jpg": "/ReactPorfolio/static/media/mypic.c5f94649.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e263af8d.js",
+    "static/js/2.303ee9fd.chunk.js",
+    "static/css/main.ec7a4f02.chunk.css",
+    "static/js/main.5a06d2ea.chunk.js"
+  ]
+}
