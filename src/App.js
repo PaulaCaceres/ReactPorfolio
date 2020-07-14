@@ -89,8 +89,8 @@ class App extends Component {
         <Router>
           <MainBar />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/home" component={Home} />
+            <Route exact path="/ReactPorfolio" component={Home} />
+            <Route path="ReactPorfolio/home" component={Home} />
             <Route path="/gallery" component={Gallery} />
           </Switch>
         </Router>
