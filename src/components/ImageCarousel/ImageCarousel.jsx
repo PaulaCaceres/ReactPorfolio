@@ -20,8 +20,8 @@ const ImageCarouselRaw = props => {
                         src={image.url}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <p>{image.title}</p>
+                    <Carousel.Caption className={classes.titleContainer}>
+                        <p className={classes.imageTitle}>{image.title}</p>
                     </Carousel.Caption>
                 </Carousel.Item>)}
         </Carousel>

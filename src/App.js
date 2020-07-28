@@ -3,19 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Home, Gallery } from './pages';
-// import { MainBar } from './components';
 import MainBar from './components/MainBar/MainBar.jsx';
 import './App.css';
 import './index.css';
-
-
-// import Home from './pages/Home';
-
-// import Gallery from './pages/Gallery/Gallery';
-/*
-import MainBar from './components/MainBar/MainBar'; 
-import './styles/colors.scss';
-*/
 
 function getTheme(theme) {
   return createMuiTheme({
@@ -89,8 +79,7 @@ class App extends Component {
         <Router>
           <MainBar />
           <Switch>
-            <Route exact path="/ReactPorfolio" component={Home} />
-            <Route path="ReactPorfolio/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/gallery" component={Gallery} />
           </Switch>
         </Router>

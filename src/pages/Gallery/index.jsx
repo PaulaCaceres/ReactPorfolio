@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import GridImages from '../../components/GridImages/GridImages';
-import './Gallery.scss';
-import { withStyles } from '@material-ui/core/styles';
+import { Footer } from '../../components';
 import styles from './styles'
+import { withStyles } from '@material-ui/core/styles';
 
 class Gallery extends Component {
     render() {
+        const { classes } = this.props;
         return (
-            <div>
-                <h1>Gallery</h1>
-                <GridImages />
+            <div className={classes.mainContainer}>
+                <div className={classes.container}>
+                    <h1 className={classes.titleGallery}>Gallery</h1>
+                    <GridImages />
+                </div>
+                <Footer />
             </div>
         )
     }

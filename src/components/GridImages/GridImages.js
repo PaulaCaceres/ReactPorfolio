@@ -53,21 +53,16 @@ class GridImages extends Component {
         });
 
         if (this.state.likesAdded.includes(id)) {
-            console.log('lo tiene');
             let currentArray = this.state.likesAdded;
             let newArray = [];
-            console.log('currentArray I', currentArray);
             newArray = currentArray.filter(value => value !== id);
-            console.log('newArray II', newArray);
             this.setState({ likesAdded: newArray })
             let updates = {};
             updates[`/pictures/${id}/likes`] = likes - 1;
             firebaseDB.update(updates);
         }
         else {
-            console.log('NO lo tiene');
             this.setState({ likesAdded: [...this.state.likesAdded, id] })
-
             let updates = {};
             updates[`/pictures/${id}/likes`] = likes + 1;
             firebaseDB.update(updates);
@@ -84,7 +79,7 @@ class GridImages extends Component {
         } else {
             return (
                 <div className={classes.root}>
-                    <GridList cellHeight={200} spacing={1} className={classes.gridList}>
+                    <GridList cellHeight={300} className={classes.gridList}>
                         {images.map((tile, index) => (
                             <GridListTile key={tile.title} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
                                 <img src={tile.url} alt={tile.title} />

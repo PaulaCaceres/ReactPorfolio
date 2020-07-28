@@ -9,10 +9,14 @@ class LandingRaw extends Component {
         const { classes } = this.props;
         return (
             <div>
-                <Container fluid className={classes.landing}>
+                <Container fluid className={classes.hero}>
                     <Row>
                         <Col>
-                            <img src={logo} className={classes.titleStyle} alt="Logo" />
+                            <img src={logo} className={classes.logoStyle} alt="Logo" />
+                            <div className={classes.titleStyle} >
+                                <h3>Software Developer & Audiovisual Designer</h3>
+                            </div>
+
                         </Col>
                     </Row>
                 </Container>

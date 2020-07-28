@@ -3,11 +3,12 @@ import { createStyles } from '@material-ui/core/styles';
 export default function styles(theme) {
   return createStyles({
     toolbar: {
+      backgroundColor: '#f79f02',
       position: 'fixed',
       top: '0',
       left: '0',
       width: '100%',
-      height: '56px',
+      height: '46px',
       zIndex: '100',
     },
 

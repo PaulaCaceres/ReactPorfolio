@@ -7,15 +7,14 @@ class FooterRaw extends Component {
         const { classes } = this.props;
         return (
             <Jumbotron fluid className={classes.footer}>
-                <p>
                     Get in touch{' '}
                     <a
+                        className={classes.link}
                         href="mailto:paulacaceres.dis@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer">
                         paulacaceres.dis@gmail.com
                     </a>.
-                </p>
             </Jumbotron>
         )
     }

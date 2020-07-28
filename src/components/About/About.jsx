@@ -11,7 +11,7 @@ class AboutRaw extends React.Component {
         return (
             <Container fluid className={classes.about}>
                 <Row className="justify-content">
-                    <Col sm={8}>
+                    <Col sm={8} className={classes.leftContainer}>
                         <h1 className={classes.aboutTitle}>About me</h1>
                         <p className={classes.aboutDescription}>
                             I'm a Developer and an Image and Sound Designer.
@@ -19,8 +19,12 @@ class AboutRaw extends React.Component {
                             I worked freelance for different companies, individuals, and for art biennials as a videographer, photographer and production assistant.
                             You can visit some of my projects at github.
                         </p>
-                        <ColorButton variant="contained" color="primary" className={classes.projectsBtn}
-                            href="https://paulacaceres.github.io/paulacaceresweb/" >
+                        <ColorButton
+                            variant="contained"
+                            color="primary"
+                            className={classes.projectsBtn}
+                            href="https://paulacaceres.github.io/paulacaceresweb/"
+                            target="_blank">
                             Projects
                         </ColorButton>
                     </Col>

@@ -3,14 +3,12 @@ import { createStyles } from '@material-ui/core/styles';
 export default function styles(theme) {
     return createStyles({
         footer: {
-            height: '20vh',
+            padding: '2rem',
             marginBottom: '0',
             backgroundColor: 'black',
+                color: 'white',
         },
-        p: {
-            color: 'white',
-        },
-        a: {
+        link: {
             color: 'white',
             textDecoration: 'none',
             '&:hover': { color: '#f79f02', },

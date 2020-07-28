@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
 }
 
 code {
@@ -28,38 +29,3 @@ code {
     local('DMSans-Italic'),
     url(./fonts/DMSans-Italic.ttf) format('opentype');
 }
-
-/* @font-face {
-  font-family: 'NotoSansJP';
-  font-style: normal;
-  font-weight: normal;
-  src:
-    local('NotoSansJP'),
-    url(./fonts/NotoSansJP-Regular.otf) format('opentype');
-}
-@font-face {
-  font-family: 'NotoSansJP';
-  font-style: medium;
-  font-weight: normal;
-  src:
-    local('NotoSansJP-Medium'),
-    url(./fonts/NotoSansJP-Medium.otf) format('opentype');
-} */
-
-/* 
-@font-face {
-  font-family: 'BasierCircle';
-  font-style: normal;
-  font-weight: normal;
-  src:
-    local('BasierCircle'),
-    url(./fonts/Basier-Circle-Regular.otf) format('opentype');
-}
-@font-face {
-  font-family: 'BasierCircle';
-  font-style: italic;
-  font-weight: normal;
-  src:
-    local('BasierCircle-Italic'),
-    url(./fonts/Basier-Circle-Regular-Italic.otf) format('opentype');
-} */

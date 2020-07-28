@@ -6,6 +6,9 @@ export default function styles(theme) {
             height: '100vh',
             padding: '6rem'
         },
+        leftContainer: {
+            textAlign: 'left',
+        },
         aboutTitle: {
             textAlign: 'left',
             color: 'black',
@@ -18,14 +21,22 @@ export default function styles(theme) {
         },
         projectsBtn: {
             backgroundColor: '#c97b63',
-            '&:hover': {
-                backgroundColor: '#ffddc1',
-            },
+            color: 'white',
             padding: '0.5rem 2rem 0.5rem 2rem',
             borderRadius: '2rem',
+            textDecoration: 'none',
+            fontSize: '1rem',
+            marginLeft: '2rem',
+            '&:hover': {
+                backgroundColor: '#ffddc1',
+                color: 'white',
+            },
+            '&:active': {
+                color: ' #f79f02',
+            },
         },
         picture: {
             border: 'none'
-        }
+        },
     });
 }

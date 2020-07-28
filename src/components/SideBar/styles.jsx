@@ -22,7 +22,7 @@ export default function styles(theme) {
       position: 'fixed',
       top: '0',
       left: '0',
-      width: '70%',
+      width: '25vw',
       maxWidth: '400px',
       zIndex: '300',
       transition: 'transform 0.3s ease-out',
@@ -33,8 +33,8 @@ export default function styles(theme) {
       backgroundColor: 'black',
     },
     headerSidebarLogo: {
-      height: '10%',
-      width: '10%',
+      margin: '1rem',
+      width: '2rem',
     },
     ul: {
       height: '100%',
@@ -42,6 +42,7 @@ export default function styles(theme) {
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
+      textAlign: 'center',
     },
     li: {
       margin: '0.5rem 0',
@@ -57,61 +58,6 @@ export default function styles(theme) {
         color: ' #f79f02',
       },
     },
-    /* sideBar: {
-      open: {
-        transform: 'translateX(0)',
-      },
-      ul: {
-        height: '100%',
-        listStyle: 'none',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-      },
-      li: {
-        margin: '0.5rem 0',
-      },
-      a: {
-        color: 'black',
-        textDecoration: 'none',
-        fontSize: '1.5rem',
-      },
-      '&:hover': {
-        color: ' #f79f02',
-      },
-      '&:active': {
-        color: ' #f79f02',
-      },
-    }, */
-    /* sideBar: {
-      ul: {
-        height: '100%',
-        listStyle: 'none',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-      }
-    }, */
-    /* sideBar: {
-      li: {
-        margin: '0.5rem 0',
-      }
-    }, */
-    /* sideBar: {
-      a: {
-        color: 'black',
-        textDecoration: 'none',
-        fontSize: '1.5rem',
-      }
-    }, */
-    /* sideBar: {
-      '&:hover': {
-        color: ' #f79f02',
-      },
-      '&:active': {
-        color: ' #f79f02',
-      }
-    }, */
     contact: {
       color: 'black',
     }

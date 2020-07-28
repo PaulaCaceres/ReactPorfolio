@@ -30,7 +30,7 @@ class SideBarRaw extends Component {
         return (
             <nav className={sidebarClasses}>
                 <div className={classes.headerSidebar}>
-                    <img src={logo} alt="Logo" style={{ width: '70%', height: '70%' }} className={classes.headerSidebarLogo} />
+                    <img src={logo} alt="Logo" className={classes.headerSidebarLogo} />
                 </div>
                 <ul className={classes.ul}>
                     <li className={classes.li}>
@@ -38,10 +38,6 @@ class SideBarRaw extends Component {
                     </li>
                     <li className={classes.li}>
                         <Link className={classes.link} to="/gallery">Gallery</Link>
-                    </li>
-                    <li className={classes.li}>
-                        <a
-                            className={classes.link} href="/">About me</a>
                     </li>
                     <li className={classes.li}>
                         <a
